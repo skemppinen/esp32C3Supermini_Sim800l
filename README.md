@@ -8,6 +8,7 @@ Power: Li-ion 18650, 3.7v
 3. Connect C3 0 to SIM800l RXD
 4. Connect C3 1 to SIM800l TXD
 5. Connect C3 GND to Sim800l Li-ion 18650 "-"
+6. Connect C3 to PC Via USB = Monitoring & Commands
 
 ##Registering SIM800l to network#
 AT+CREG=1

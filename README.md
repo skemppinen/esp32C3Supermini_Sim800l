@@ -1,6 +1,6 @@
 ##Setup instructions##
-Board: ESP32-C3 Supermini + SIM800L V1
-Power: Li-ion 18650, 3.7v
+- Board: ESP32-C3 Supermini + SIM800L V1
+- Power: Li-ion 18650, 3.7v
 
 ##Wiring##
 1. Connect SIM800l VCC to Li-ion 18650 "+"

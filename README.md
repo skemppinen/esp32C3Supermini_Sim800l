@@ -11,6 +11,7 @@ Power: Li-ion 18650, 3.7v
 6. Connect C3 to PC Via USB = Monitoring & Commands
 
 ##Registering SIM800l to network#
+
 AT+CREG=1
 AT+SAPBR=3,1,"CONTYPE","GPRS"
 AT+SAPBR=3,1,"APN","APN-address" //replace APN-address based on your ISP

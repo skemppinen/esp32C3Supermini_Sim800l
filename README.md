@@ -10,6 +10,8 @@
 5. Connect C3 GND to Sim800l Li-ion 18650 "-"
 6. Connect C3 to PC Via USB = Monitoring & Commands
 
+7. NOTE: Do not connect 5V into C3 while connected via USB (debug & Upload)
+
 ##Registering SIM800l to network#
 
 1. AT+CREG=1

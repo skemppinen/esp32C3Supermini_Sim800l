@@ -12,9 +12,10 @@ Power: Li-ion 18650, 3.7v
 
 ##Registering SIM800l to network#
 
-AT+CREG=1
-AT+SAPBR=3,1,"CONTYPE","GPRS"
-AT+SAPBR=3,1,"APN","APN-address" //replace APN-address based on your ISP
-AT+SAPBR=1,1
-AT+CREG? (+CREG: 1,1 // 1,1 means that SIM800l is connected into your "home network".)
+1. AT+CREG=1
+2. AT+SAPBR=3,1,"CONTYPE","GPRS"
+3. AT+SAPBR=3,1,"APN","APN-address" //replace APN-address based on your ISP
+4. AT+SAPBR=1,1
+5. AT+CREG? (+CREG: 1,1 // 1,1 means that SIM800l is connected into your "home network".)
+
 If SIM800l led blinks two times per second = Connected
